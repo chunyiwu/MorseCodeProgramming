@@ -4,5 +4,5 @@ uiopen('test.txt',1);
 
 for ( i = 1 : 100 ) 
     fprintf(fid,'%d\n',i);
-    pause(1);
+%     pause(0.5);
 end
